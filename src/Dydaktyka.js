@@ -85,7 +85,7 @@ render() {
             <li>Kurs programowania pod Windows w technologii .NET</li>
 <br />
             <h3>Semestr zimowy 2016/2017</h3>
-            <li>Wstęp do programowania w jezyku C</li>
+            <li>Wstęp do programowania w języku C</li>
             <li>Wykład - Systemy wbudowane</li>
             <li>Pracownia - Systemy wbudowane</li>
             <li>Pracownia - Systemy wbudowane</li>
