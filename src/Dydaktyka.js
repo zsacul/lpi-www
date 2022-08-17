@@ -98,7 +98,7 @@ render() {
             <li>Kurs C++</li>
 <br />
             <h3>Semestr zimowy 2015/2016</h3>
-            <li>Wstęp do programowania w jezyku C</li>
+            <li>Wstęp do programowania w języku C</li>
             <li>Wykład - Systemy wbudowane</li>
             <li>Pracownia - Systemy wbudowane</li>
             <li>Pracownia - Systemy wbudowane</li>
