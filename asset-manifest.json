@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lpi-www/static/css/main.f27617f1.chunk.css",
-    "main.js": "/lpi-www/static/js/main.a656d1ef.chunk.js",
-    "main.js.map": "/lpi-www/static/js/main.a656d1ef.chunk.js.map",
+    "main.css": "/lpi-www/static/css/main.84663f97.chunk.css",
+    "main.js": "/lpi-www/static/js/main.f165a67b.chunk.js",
+    "main.js.map": "/lpi-www/static/js/main.f165a67b.chunk.js.map",
     "runtime-main.js": "/lpi-www/static/js/runtime-main.3b84fd72.js",
     "runtime-main.js.map": "/lpi-www/static/js/runtime-main.3b84fd72.js.map",
     "static/js/2.2870a2d3.chunk.js": "/lpi-www/static/js/2.2870a2d3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.eb85a138.chunk.js": "/lpi-www/static/js/3.eb85a138.chunk.js",
     "static/js/3.eb85a138.chunk.js.map": "/lpi-www/static/js/3.eb85a138.chunk.js.map",
     "index.html": "/lpi-www/index.html",
-    "static/css/main.f27617f1.chunk.css.map": "/lpi-www/static/css/main.f27617f1.chunk.css.map",
+    "static/css/main.84663f97.chunk.css.map": "/lpi-www/static/css/main.84663f97.chunk.css.map",
     "static/js/2.2870a2d3.chunk.js.LICENSE.txt": "/lpi-www/static/js/2.2870a2d3.chunk.js.LICENSE.txt",
     "static/media/fontawesome-all.min.css": "/lpi-www/static/media/fa-solid-900.eeccf4f6.woff",
     "static/media/lpi.744480b6.jpg": "/lpi-www/static/media/lpi.744480b6.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.3b84fd72.js",
     "static/js/2.2870a2d3.chunk.js",
-    "static/css/main.f27617f1.chunk.css",
-    "static/js/main.a656d1ef.chunk.js"
+    "static/css/main.84663f97.chunk.css",
+    "static/js/main.f165a67b.chunk.js"
   ]
 }
