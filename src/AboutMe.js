@@ -10,7 +10,7 @@ render() {
             <article>
             <div className='content'>
 <br />
-Soon...
+
 <br />
             </div>
             </article>
