@@ -83,7 +83,7 @@ render() {
                 <h3>Język Rust</h3>
                 <p>
                   Według (nie tylko mnie), ten młody język ma szansę zastąpić w pewnych zastosowaniach C/C++ na kolejne 30 lat. 
-                  Poprzez swoje mechanizmy poprawia bezpieczeństwo pamięci i pewne aspekty wielowątkowości programów w nim pisanych nie poświęcając przy tym wydajności.
+                  Poprzez swoje mechanizmy poprawia bezpieczeństwo pamięci oraz pewne aspekty wielowątkowości programów w nim pisanych nie poświęcając przy tym wydajności.
                 </p>
               </div>
             </article>
