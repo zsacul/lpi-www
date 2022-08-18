@@ -23,7 +23,7 @@ i
 W 1998 roku II miejsce (drużynowo) w I Dolnośląskich Zawodach w Programowaniu Zespołowym.
 <br />
 Doktorat pod tytułem: 
-<a href={phd}> Voxel Method for Realistic Rendering </a> 
+<a href={phd}> „Voxel Method for Realistic Rendering” </a> 
 obroniony w 2009 roku (promotor Prof. Rémy Malgouyres).
 <br />
 W 2011 roku udział w projekcie 
@@ -36,7 +36,7 @@ Od stycznia 2014 do września 2015 (od pomysłu do pierwszych
 W 2015 udział w projekcie
 Miejski Program Wsparcia Partnerstwa Szkolnictwa Wyższego i Nauki oraz Sektora Aktywności Gospodarczej
 <a href="https://www.wroclaw.pl/akademicki-wroclaw/dr-lukasz-piwowar-imagination-technologies-limited-zbadanie-dokladnosci-operacji-zmiennoprzecinkowych"> „MOZART“ </a>
-, przedsiębiorstwo: Imagination Technologies Limited Oddział w Polsce
+, przedsiębiorstwo: Imagination Technologies Limited Oddział w Polsce.
 <br />
 W latach 2015-2018 lider Wroclaw Khronos Chapter - promocja otwartych standardów (m.in.: OpenCL, OpenGL, WebGL, Vulkan, glTF) konsorcjum Khronos w lokalnej społeczności programistów z Wrocławia.
 <br />
