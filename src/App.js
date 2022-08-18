@@ -47,7 +47,7 @@ render() {
             </ul>
           </div>
           <span className='image object'>
-            <img src={lpi} alt="" />
+          <img src={lpi} alt="" />
           </span>
         </section>
 
