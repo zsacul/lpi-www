@@ -31,7 +31,7 @@ W 2011 roku udział w projekcie
  - rozwój współpracy pomiędzy sferą nauki i biznesu – transfer wiedzy. 
 <br />
 Od stycznia 2014 do września 2015 (od pomysłu do pierwszych 
-  <a href="https://roverchallenge.eu/"> zawodów</a>) opiekun naukowy studenckiego koła Continuum zajmującego się projektowaniem i budową łazika marsjańskiego.
+  <a href="https://roverchallenge.eu/"> zawodów</a>) opiekun naukowy studenckiego koła Continuum, zajmującego się projektowaniem i budową łazika marsjańskiego.
 <br />
 W 2015 udział w projekcie
 Miejski Program Wsparcia Partnerstwa Szkolnictwa Wyższego i Nauki oraz Sektora Aktywności Gospodarczej
