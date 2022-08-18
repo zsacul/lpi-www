@@ -8,6 +8,7 @@ import Dydaktyka from './Dydaktyka';
 import AboutMe from './AboutMe';
 
 import lpi from './assets/images/lpi.jpg';
+import PraceDyplomowe from './PraceDyplomowe';
 
 class App extends React.Component {
 
@@ -101,12 +102,21 @@ render() {
           </div>
         </section>
 
+        <section id="prace">
+          <header className='major'>
+            <h2>Prace Dyplomowe</h2>
+          </header>
+          <div className='features'>
+            <PraceDyplomowe />
+          </div>
+        </section>
+
         <section id="omnie">
           <header className='major'>
             <h2>O mnie</h2>
           </header>
           <div className='features'>
-            <AboutMe />
+          <AboutMe />
           </div>
         </section>
   
@@ -126,6 +136,7 @@ render() {
           <ul>
             <li><a href=".">Główna</a></li>
             <li><a href="#dydaktyka">Dydaktyka</a></li>
+            <li><a href="#prace">Prace Dyplomowe</a></li>
             <li><a href="#omnie">O mnie...</a></li>
           </ul>
         </nav>
