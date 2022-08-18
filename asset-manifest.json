@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lpi-www/static/css/main.84663f97.chunk.css",
-    "main.js": "/lpi-www/static/js/main.f165a67b.chunk.js",
-    "main.js.map": "/lpi-www/static/js/main.f165a67b.chunk.js.map",
+    "main.js": "/lpi-www/static/js/main.30aad5b3.chunk.js",
+    "main.js.map": "/lpi-www/static/js/main.30aad5b3.chunk.js.map",
     "runtime-main.js": "/lpi-www/static/js/runtime-main.3b84fd72.js",
     "runtime-main.js.map": "/lpi-www/static/js/runtime-main.3b84fd72.js.map",
     "static/js/2.2870a2d3.chunk.js": "/lpi-www/static/js/2.2870a2d3.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/lpi-www/index.html",
     "static/css/main.84663f97.chunk.css.map": "/lpi-www/static/css/main.84663f97.chunk.css.map",
     "static/js/2.2870a2d3.chunk.js.LICENSE.txt": "/lpi-www/static/js/2.2870a2d3.chunk.js.LICENSE.txt",
+    "static/media/Thesis_final_v2.ad82bddc.pdf": "/lpi-www/static/media/Thesis_final_v2.ad82bddc.pdf",
     "static/media/fontawesome-all.min.css": "/lpi-www/static/media/fa-solid-900.eeccf4f6.woff",
     "static/media/lpi.744480b6.jpg": "/lpi-www/static/media/lpi.744480b6.jpg"
   },
@@ -19,6 +20,6 @@
     "static/js/runtime-main.3b84fd72.js",
     "static/js/2.2870a2d3.chunk.js",
     "static/css/main.84663f97.chunk.css",
-    "static/js/main.f165a67b.chunk.js"
+    "static/js/main.30aad5b3.chunk.js"
   ]
 }
