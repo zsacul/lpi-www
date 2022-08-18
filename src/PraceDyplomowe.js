@@ -10,9 +10,9 @@ render() {
 <article>
 <div className='content'>
 <h3>Zainteresowania</h3>
-Jako promotora interesują mnie głównie prace które mają zastosowane w rzeczywistości i mają niezerowy wpływ na życie ludzi.
-Interesuje się wszystkim co jest związane z grafiką komputerową od ultra realistycznej (liczonej godzinami) do tej czasu rzeczywistego, a także wirtualną/rozszerzoną/mieszaną rzeczywistością.
-Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie lubię javy, R i pythona (ale javy najbardziej). Już raczej nie napiszę niczego w basic, pascal i assembler.
+Jako promotora interesują mnie głównie prace, które mają zastosowane w rzeczywistości i niezerowy wpływ na życie ludzi.
+Interesuje się wszystkim, co jest związane z grafiką komputerową: od ultra realistycznej (liczonej godzinami) do tej czasu rzeczywistego, a także wirtualną/rozszerzoną/mieszaną rzeczywistością.
+Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie lubię javy, R i pythona (ale javy najbardziej). Nie chcę już pisać w basic, pascal i assembler.
 <br />
 <br />
 <h3>Obronione prace których byłem promotorem</h3>
