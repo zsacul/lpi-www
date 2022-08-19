@@ -22,9 +22,9 @@ i
 <br />
 W 1998 roku II miejsce (drużynowo) w I Dolnośląskich Zawodach w Programowaniu Zespołowym.
 <br />
-Doktorat pod tytułem: 
+Doktorat 
 <a href={phd}> „Voxel Method for Realistic Rendering” </a> 
-obroniony w 2009 roku (promotor Prof. Rémy Malgouyres).
+obroniony w 2009 roku (promotor Prof. Rémy Malgouyres, promotor wspierający Prof. Krzysztof Loryś, recenzenci: Prof. Karol Myszkowski, Prof. Leszek Pacholski).
 <br />
 W 2011 roku udział w projekcie 
 <a href="https://wca.wroc.pl/nasi-stazysci-zielony-transfer"> „Zielony Transfer” </a>
