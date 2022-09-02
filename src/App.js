@@ -6,11 +6,19 @@ import './assets/css/fontawesome-all.min.css';
 import {appendScript} from './appendScript'
 import Dydaktyka from './Dydaktyka';
 import AboutMe from './AboutMe';
+import $ from 'jquery';
 
-import lpi from './assets/images/lpi.jpg';
 import PraceDyplomowe from './PraceDyplomowe';
 
 class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      src: "lpi1"
+    };
+  }
 
   componentDidMount () {
     appendScript("assets/js/jquery.min.js")
@@ -18,9 +26,31 @@ class App extends React.Component {
     appendScript("assets/js/breakpoints.min.js");
     appendScript("assets/js/main.js");
     appendScript("assets/js/util.js");
+
+    setTimeout(() => {
+      
+      const nPhotos = 3;
+      var photo = Math.floor(Math.random() * nPhotos)%nPhotos;
+
+      if (photo===0) this.setState({ src: "lpi1" });
+      if (photo===1) this.setState({ src: "lpi2" });
+      if (photo===2) this.setState({ src: "lpi3" });
+
+      $(".testimg").animate({"opacity": "1.0"}, 700);
+    }, 1000);  
+  
   }
 
+  getImage = (image) => {
+    return <img className="testimg" src={require(`./assets/images/${image}.jpg`).default} alt="Łukasz Piwowar zdjęcie" />
+ }
+
 render() {
+
+  var {src} =  this.state;
+  //const srcn = "lpi"
+//alert(src)
+
   return (
 
 <div id="wrapper">
@@ -48,7 +78,8 @@ render() {
             </ul>
           </div>
           <span className='image object'>
-          <img src={lpi} alt="" />
+          
+          {this.getImage(src)}
           </span>
         </section>
 
