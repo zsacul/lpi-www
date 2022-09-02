@@ -27,15 +27,14 @@ class App extends React.Component {
     appendScript("assets/js/main.js");
     appendScript("assets/js/util.js");
 
+    const nPhotos = 3;
+    var photo = Math.floor(Math.random() * nPhotos)%nPhotos;
+
+    if (photo===0) this.setState({ src: "lpi1" });
+    if (photo===1) this.setState({ src: "lpi2" });
+    if (photo===2) this.setState({ src: "lpi3" });
+
     setTimeout(() => {
-      
-      const nPhotos = 3;
-      var photo = Math.floor(Math.random() * nPhotos)%nPhotos;
-
-      if (photo===0) this.setState({ src: "lpi1" });
-      if (photo===1) this.setState({ src: "lpi2" });
-      if (photo===2) this.setState({ src: "lpi3" });
-
       $(".testimg").animate({"opacity": "1.0"}, 700);
     }, 1000);  
   
