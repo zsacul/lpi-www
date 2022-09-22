@@ -27,6 +27,17 @@ Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie 
         </thead>
         <tbody>
             <tr>
+                <td>Marko Golovko</td>
+                <td>Aplikacja mobilna do nauki matematyki dla dzieci w wieku przedszkolnym</td>
+                <td>9 września 2022</td>
+            </tr>
+            <tr>
+                <td>Mikołaj Stachnik,<br />
+                     Łukasz Wojdon</td>
+                <td>Implementacja gry komputerowej wykorzystującej sieć lokalną do komunikacji pomiędzy serwerem znajdującym się na komputerze a kontrolerami na smartfonach</td>
+                <td>6 września 2022</td>
+            </tr>
+            <tr>
                 <td>Grzegorz Winiarski</td>
                 <td>Collaboard - wirtualna tablica ułatwiająca prowadzenie zajęć zdalnie</td>
                 <td>21 lutego 2022</td>
