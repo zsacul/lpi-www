@@ -24,31 +24,31 @@ render() {
 <br />
             <h3>Semestr letni 2021/2022</h3>
             <li>Wykład - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
-            <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
-            <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
+            <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp (zdalnie)</li>
+            <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp (zdalnie)</li>
 <br />
             <h3>Semestr zimowy 2021/2022</h3>
             <li>Lecture - Unity game development course</li>
-            <li>Lab - Unity game development course</li>
-            <li>Lab - Unity game development course</li>
-            <li>Pracownia - Kurs: Wstęp do programowania w języku C</li>
+            <li>Lab - Unity game development course (zdalnie)</li>
+            <li>Lab - Unity game development course (zdalnie)</li>
+            <li>Pracownia - Kurs: Wstęp do programowania w języku C (zdalnie)</li>
             <li>Wykład - Kurs języka Rust</li>
-            <li>Pracownia - Kurs języka Rust</li>
-            <li>Pracownia - Kurs języka Rust</li>
+            <li>Pracownia - Kurs języka Rust (zdalnie)</li>
+            <li>Pracownia - Kurs języka Rust (zdalnie)</li>
 <br />
             <h3>Semestr letni 2020/2021</h3>
-            <li>Wykład - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
-            <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
-            <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
-            <li>Pracownia - Minikurs języka C</li>
+            <li>Wykład - Kurs modelowania 3d i wizualizacji w programie SketchUp (zdalnie)</li>
+            <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp (zdalnie)</li>
+            <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp (zdalnie)</li>
+            <li>Pracownia - Minikurs języka C (zdalnie)</li>
 <br />
             <h3>Semestr zimowy 2020/2021</h3>
-            <li>Wykład - Kurs języka Rust</li>
-            <li>Pracownia - Kurs języka Rust</li>
-            <li>Wykład - Kurs tworzenia gier w silniku Unity3D</li>
-            <li>Pracownia - Kurs tworzenia gier w silniku Unity3D</li>
-            <li>Pracownia - Kurs tworzenia gier w silniku Unity3D</li>
-            <li>Pracownia - Kurs: Wstęp do programowania w języku C</li>
+            <li>Wykład - Kurs języka Rust (zdalnie)</li>
+            <li>Pracownia - Kurs języka Rust (zdalnie)</li>
+            <li>Wykład - Kurs tworzenia gier w silniku Unity3D (zdalnie)</li>
+            <li>Pracownia - Kurs tworzenia gier w silniku Unity3D (zdalnie)</li>
+            <li>Pracownia - Kurs tworzenia gier w silniku Unity3D (zdalnie)</li>
+            <li>Pracownia - Kurs: Wstęp do programowania w języku C (zdalnie)</li>
 <br />
             <h3>Semestr letni 2019/2020</h3>            
             <li>Wykład - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
