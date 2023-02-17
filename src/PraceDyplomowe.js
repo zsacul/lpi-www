@@ -27,6 +27,16 @@ Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie 
         </thead>
         <tbody>
             <tr>
+                <td>Dominik Trautman</td>
+                <td>Customizable Pathfinding Unreal Engine 5 plugin</td>
+                <td>10 lutego 2023</td>
+            </tr>
+            <tr>
+                <td>Krzysztof Sławik</td>
+                <td>Performance comparison of Wave Function Collapse Algorithm implementations</td>
+                <td>10 lutego 2023</td>
+            </tr>
+            <tr>
                 <td>Marko Golovko</td>
                 <td>Aplikacja mobilna do nauki matematyki dla dzieci w wieku przedszkolnym</td>
                 <td>9 września 2022</td>
