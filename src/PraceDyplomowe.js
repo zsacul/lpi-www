@@ -27,6 +27,11 @@ Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie 
         </thead>
         <tbody>
             <tr>
+                <td>Magdalena Rzepka</td>
+                <td>Projekt architektury ułatwiającej tworzenie gier logicznych w silniku Unity, na przykładzie gry typu escape room</td>
+                <td>29 czerwca 2023</td>
+            </tr>
+            <tr>
                 <td>Dominik Trautman</td>
                 <td>Customizable Pathfinding Unreal Engine 5 plugin</td>
                 <td>10 lutego 2023</td>
