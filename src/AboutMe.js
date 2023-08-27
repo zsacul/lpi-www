@@ -24,7 +24,7 @@ Dwukrotny uczestnik II etapu Olimpiady Informatycznej w latach
 i 
 <a href="https://oi.edu.pl/l/4oi_1etap_wyniki/"> 1997</a>.
 <br />
-W 1998 roku II miejsce (drużynowo) na .
+W 1998 roku II miejsce (drużynowo) na 
 <a href={zawody}> I Dolnośląskich Zawodach w Programowaniu Zespołowym </a>.
 <br />
 <br />

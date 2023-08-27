@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './index.js';
+import {showHide} from './showHideScript.js'
 
 class Dydaktyka extends React.Component {
   componentDidMount () {
@@ -63,6 +64,9 @@ render() {
             <li>Pracownia - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
             <li>Seminarium - Projekt zespołowy: silnik Unity3D i wirtualna rzeczywistość LATO</li>
             <li>Pracownia - Projekt zespołowy: silnik Unity3D i wirtualna rzeczywistość LATO</li>
+
+<span id="dots"></span>
+<span id="more">
 <br />
             <h3>Semestr zimowy 2018/2019</h3>
             <li>Wykład - Kurs tworzenia gier w silniku Unity3D</li>
@@ -246,7 +250,10 @@ render() {
             <li>Pracownia - Kurs języka C (studia wieczorowe)</li>
             <li>Pracownia - Kurs języka ANSI C (z elementami C++)</li>
             <li>Pracownia - Podstawy grafiki komputerowej</li>
+</span>
+
 <br />
+<button onClick={showHide} id="myBtnMore"> Więcej...</button>
             </div>
             </article>
   );
