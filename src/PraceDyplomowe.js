@@ -27,6 +27,11 @@ Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie 
         </thead>
         <tbody>
             <tr>
+                <td>Katsiaryna Yalovik</td>
+                <td>Aplikacja inteligentny budzik</td>
+                <td>14 września 2023</td>
+            </tr>
+            <tr>
                 <td>Magdalena Rzepka</td>
                 <td>Projekt architektury ułatwiającej tworzenie gier logicznych w silniku Unity, na przykładzie gry typu escape room</td>
                 <td>29 czerwca 2023</td>

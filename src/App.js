@@ -5,6 +5,7 @@ import './assets/css/main.css';
 import './assets/css/fontawesome-all.min.css';
 import {appendScript} from './appendScript'
 import Dydaktyka from './Dydaktyka';
+import Demoscena  from './Demoscena';
 import AboutMe from './AboutMe';
 import $ from 'jquery';
 
@@ -141,6 +142,15 @@ render() {
           </div>
         </section>
 
+        <section id="demoscena">
+          <header className='major'>
+            <h2>Demoscena</h2>
+          </header>
+          <div className='features'>
+            <Demoscena />
+          </div>
+        </section>
+
         <section id="omnie">
           <header className='major'>
             <h2>O mnie</h2>
@@ -165,9 +175,10 @@ render() {
           </header>
           <ul>
             <li><a href=".">Główna</a></li>
-            <li><a href="#dydaktyka">Dydaktyka</a></li>
-            <li><a href="#prace">Prace Dyplomowe</a></li>
-            <li><a href="#omnie">O mnie...</a></li>
+            <li><a href="./#dydaktyka">Dydaktyka</a></li>
+            <li><a href="./#prace">Prace Dyplomowe</a></li>
+            <li><a href="./#demoscena">Demoscena</a></li>
+            <li><a href="./#omnie">O mnie</a></li>
           </ul>
         </nav>
 

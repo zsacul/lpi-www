@@ -66,8 +66,9 @@ oraz z zakresu
 W latach 2013-2022 CEO spółki BRIGHTER3D SOFTWARE DEVELOPMENT LTD. sprzedającej m.in.
 <a href="https://www.brighter3d.com"> plugin  </a> 
 do liczenia autorską metodą fotorealistycznych obrazów pozbawionych szumu.
-<br />
-<br />
+<br /><br />
+<a href="./#demoscena"> Demoscener</a>.
+<br /><br />
 Mieszka w podwrocławskiej wsi wraz z żoną i dwójką dzieci.
     </div>
     </article>
