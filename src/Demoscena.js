@@ -42,7 +42,7 @@ render() {
 
             Po ich obejrzeniu, zachwyciłem się i postanowiłem za wszelką cenę dowidzieć się, jak zostały zrobione.
             Co ciekawe, nie miałem podobnych odczuć grając w gry.
-            Pomyślałem, że najlepszym sposobem na zrozumienie tego będzie próba zakodowania czegoś podobnego.
+            Pomyślałem, że najlepszym sposobem na zrozumienie tego, będzie próba zakodowania czegoś podobnego.
             <br/>
             <br/>
             W styczniu 1996 (miesiąc przed demoparty "Próba Generalna II") założyłem grupę o nazwie Norferin.
@@ -53,9 +53,9 @@ render() {
             na party był aż dwukrotnie wolniejszy od tego, na którym je kodowaliśmy.
 
       Po party Sir Tomasz zmienił nicka na Juve i wzięliśmy się do pracy. 
-      Weźcie pod uwagę to, że przed "próbą generalną II" widzieliśmy tylko produkcję z "próby generalnej I".
+      Weźcie pod uwagę to, że przed "próbą generalną II" widzieliśmy tylko produkcję z "próby generalnej I" (z nieśmiertelnego czasopisma CD-Action).
       W maju 1996 zaczęliśmy demo na "Staszic Compo III". 
-      Demo zajęło pierwsze miejsce i nosiło nazwę "Contribution to Nirvana" (niestety były tylko dwa dema). <br/>
+      Demo zajęło pierwsze miejsce i nosiło nazwę "Contribution to Nirvana" (niestety były wystawione tylko dwa dema). <br/>
       Kilka miesięcy później Lavina (dawniej Kuba) dołączył do nas jako muzyk. <br/>
       W listopadzie 1996 pokazaliśmy nasze kolejne demo o nazwie "Blue Flush", które zajęło trzecie miejsce na Gravity'96. <br/>
       Tydzień po imprezie do nas dołączył Fremen (dawniej Feud) jako programista i swapper. <br/>
@@ -70,13 +70,13 @@ render() {
       Kolejne demo na Gravity'97, zatytułowane "Trip into your mind" (pierwsze w 16-bitowym kolorze),
       zdobyło trzecie miejsce. <br/>
       Kolejne demo "Technological Impression" zajęło pierwsze miejsce na Astrosyn 1997.<br/>
-      Następne "Potępieni" zajęło pierwsze miejsce na Rush Hours 1998.<br/>
+      Następne "Potępieni" (kodowane tylko przeze mnie) zajęło pierwsze miejsce na Rush Hours 1998.<br/>
       Demo "Ikar" było czwarte na Quast 1998.<br/>
       "Rain" siódme na Gravity 1998. <br/>
       Ostatnie demo w zeszłym stuleciu "Brama" zajęło trzecie miejsce na Analogue 1999.<br/>
       <br/>
-      Po tym nadszedł mój długi okres przerwy od demosceny, trwający aż 21 lat. W wolnych chwilach głównie podczas 
-      wakacji, powoli tworzyłem efekty w Unity, zamiast jak dotychczas korzystać z własnego silnika.
+      Po tym nadszedł mój długi okres przerwy od demosceny, trwający aż 21 lat. W wolnych chwilach (głównie podczas 
+      wakacji), powoli tworzyłem efekty w Unity, zamiast jak dotychczas korzystać z własnego silnika.
       Okazja do ponownego spróbowania sił, nadeszła w trakcie pandemii, kiedy okazało się, że na jednym z najważniejszych demoparty na świecie, czyli Revision, można było zgłosić swoje produkcje zdalnie.
       Dowiedziałem się o tym dość późno, ale mimo wszystko postanowiłem spróbować. W ciągu zaledwie czterech dni udało mi się stworzyć większość dema.       
       Na więcej zabrakło czasu, więc po prostu obciąłem muzykę i demo z planowanych 4 minut, trwa 2:52.
