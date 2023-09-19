@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lpi-www/static/css/main.e4acd0cf.chunk.css",
-    "main.js": "/lpi-www/static/js/main.035f4983.chunk.js",
-    "main.js.map": "/lpi-www/static/js/main.035f4983.chunk.js.map",
+    "main.css": "/lpi-www/static/css/main.49c55712.chunk.css",
+    "main.js": "/lpi-www/static/js/main.a53261eb.chunk.js",
+    "main.js.map": "/lpi-www/static/js/main.a53261eb.chunk.js.map",
     "runtime-main.js": "/lpi-www/static/js/runtime-main.cf8cf2a4.js",
     "runtime-main.js.map": "/lpi-www/static/js/runtime-main.cf8cf2a4.js.map",
     "static/js/2.5d78714d.chunk.js": "/lpi-www/static/js/2.5d78714d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fff40cd1.chunk.js": "/lpi-www/static/js/3.fff40cd1.chunk.js",
     "static/js/3.fff40cd1.chunk.js.map": "/lpi-www/static/js/3.fff40cd1.chunk.js.map",
     "index.html": "/lpi-www/index.html",
-    "static/css/main.e4acd0cf.chunk.css.map": "/lpi-www/static/css/main.e4acd0cf.chunk.css.map",
+    "static/css/main.49c55712.chunk.css.map": "/lpi-www/static/css/main.49c55712.chunk.css.map",
     "static/js/2.5d78714d.chunk.js.LICENSE.txt": "/lpi-www/static/js/2.5d78714d.chunk.js.LICENSE.txt",
     "static/media/I_dolnoslaskie_zawody_w_programowaniu_zespolowym.b7d76e36.jpg": "/lpi-www/static/media/I_dolnoslaskie_zawody_w_programowaniu_zespolowym.b7d76e36.jpg",
     "static/media/MicrosoftCertifiedProfessionalPiwowar.bf54d46f.jpg": "/lpi-www/static/media/MicrosoftCertifiedProfessionalPiwowar.bf54d46f.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.cf8cf2a4.js",
     "static/js/2.5d78714d.chunk.js",
-    "static/css/main.e4acd0cf.chunk.css",
-    "static/js/main.035f4983.chunk.js"
+    "static/css/main.49c55712.chunk.css",
+    "static/js/main.a53261eb.chunk.js"
   ]
 }
