@@ -88,6 +88,9 @@ render() {
       <iframe class="video" src="https://www.youtube.com/embed/8QLLSGyxsLc" title="Live The Trance - Norferin Demo at Revision 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>      
       </div>
 
+      <a href="https://drive.google.com/uc?id=1dqNwKjZjJ0DdROXMiZ-sU7QM-6KPJhet">Plik wykonywalny</a>
+
+      <br/>
       <br/>
       Demo zostało przyjęte entuzjastycznie, a tworzenie go sprawiło mi taką frajdę, że zdecydowałem się na reaktywację grupy Norferin.
       Rozpocząłem pracę nad nowym demem, tym razem w silniku Unreal 5. 
@@ -101,6 +104,10 @@ render() {
       <div class="video-container">
       <iframe class="video" src="https://www.youtube.com/embed/IoL8q9NVjQw" title="Ground Zero - Norferin Demo at Xenium 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
       </div>
+
+      <a href="https://files.scene.org/get:nl-https/parties/2023/xenium23/pc_demo/demo_norferin_groundzero.zip">Plik wykonywalny (wymaga karty z RTX)</a>
+
+      
 
 
       
