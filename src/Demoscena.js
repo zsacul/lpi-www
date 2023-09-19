@@ -12,18 +12,19 @@ render() {
 
             <article>
             <div className='content'>
-            W roku 2021 polska demoscena (podobnie jak w wielu innych krajach) została wpisana przez Ministra Kultury na listę niematerialnego dziedzictwa kulturowego UNESCO.
+            W roku 2021, polska demoscena, podobnie jak w wielu innych krajach, została wpisana przez Ministra Kultury na listę 
+            niematerialnego dziedzictwa kulturowego UNESCO.
             Czym jest demoscena? Demoscena to grupa ludzi, którzy tworzą niesamowite pokazy komputerowe. 
             
-            <br />            
             <br/>
-            Te pokazy nazywane są "demem" lub "demonstracją". W tych prezentacjach pokazują, jak potężne 
-            i efektowne rzeczy można stworzyć na komputerze. 
+            <br/>
+            Te prezentacje nazywane są "dememi" lub "demonstracjami". W tych demonstracjach pokazują, jak potężne 
+            i efektowne rzeczy można stworzyć na komputerze licząc je na żywo (podobnie jak gry). 
             To tak, jakby tworzyli krótkie filmy, najczęściej liczone w czasie rzeczywistym, które prezentują zdolności techniczne komputera w dziedzinach, takich 
             jak grafika, dźwięk i animacja. Demoscena to swojego rodzaju konkurs kreatywności i umiejętności wśród pasjonatów komputerów.
-
-            Moja historia związana z demosceną zaczęła się w roku 1995.
-            Wtedy mój tato przywiózł na dyskietkach dwa dema:
+            <br/>
+            Moja historia związana z demosceną rozpoczęła się w roku 1995,
+            kiedy mój tato przywiózł na dyskietkach dwa dema:
             <br/>
             <br/>
             Future Crew - Second Reality (1993)          
@@ -87,7 +88,7 @@ render() {
       <iframe class="video" src="https://www.youtube.com/embed/8QLLSGyxsLc" title="Live The Trance - Norferin Demo at Revision 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>      
       </div>
 
-      <br/><br/>
+      <br/>
       Demo zostało przyjęte entuzjastycznie, a tworzenie go sprawiło mi taką frajdę, że zdecydowałem się na reaktywację grupy Norferin.
       Rozpocząłem pracę nad nowym demem, tym razem w silniku Unreal 5. 
       Dołączyli do mnie Szudi (Muzyka, 3D) i JS29a (dodatkowy kod).
