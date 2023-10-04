@@ -12,6 +12,14 @@ render() {
 
             <article>
             <div className='content'>
+<br />
+            <h3>Semestr zimowy 2023/2024</h3>
+            <li>Wykład - Kurs tworzenia gier w silniku Unity3D</li>
+            <li>Pracownia - Kurs tworzenia gier w silniku Unity3D</li>
+            <li>Pracownia - Kurs tworzenia gier w silniku Unity3D</li>
+            <li>Wykład - Kurs języka Rust</li>
+            <li>Pracownia - Kurs języka Rust</li>
+            <li>Pracownia - Kurs języka Rust</li>
 <br />              
             <h3>Semestr letni 2022/2023</h3>
             <li>Wykład - Kurs programowania gier w silniku Unreal 5</li>
@@ -19,7 +27,6 @@ render() {
             <li>Pracownia - Kurs programowania gier w silniku Unreal 5</li>  
             <li>Pracownia - Kurs języka C++</li>
             <li>Pracownia - Kurs języka C++</li>
-
 <br />
             <h3>Semestr zimowy 2022/2023</h3>       
             <li>Wykład - Kurs tworzenia gier w silniku Unity3D</li>
@@ -29,7 +36,6 @@ render() {
             <li>Pracownia - Kurs języka Rust</li>
             <li>Pracownia - Kurs języka Rust</li>
             <li>Pracownia - Tworzenie aplikacji frontendowych</li>
-
 <br />
             <h3>Semestr letni 2021/2022</h3>
             <li>Wykład - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>

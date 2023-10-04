@@ -18,7 +18,7 @@ render() {
             
             <br/>
             <br/>
-            Te prezentacje nazywane są "dememi" lub "demonstracjami". W tych demonstracjach pokazują, jak potężne 
+            Te prezentacje nazywane są "dememi" lub "demonstracjami". Pokazują w nich, jak potężne 
             i efektowne rzeczy można stworzyć na komputerze licząc je na żywo (podobnie jak gry). 
             To tak, jakby tworzyli krótkie filmy, najczęściej liczone w czasie rzeczywistym, które prezentują zdolności techniczne komputera w dziedzinach, takich 
             jak grafika, dźwięk i animacja. Demoscena to swojego rodzaju konkurs kreatywności i umiejętności wśród pasjonatów komputerów.
