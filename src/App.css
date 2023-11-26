@@ -42,7 +42,7 @@
 }
 
 
-#more {display: none;}
+.more {display: none;}
 
 .video-container {
   position: relative;

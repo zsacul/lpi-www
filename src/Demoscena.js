@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './index.js';
-
+import ShowHide from './ShowHide.js';
 
 class Demoscena extends React.Component {
   componentDidMount () {
@@ -17,6 +17,8 @@ render() {
             Czym jest demoscena? Demoscena to grupa ludzi, którzy tworzą niesamowite pokazy komputerowe. 
             
             <br/>
+<span id="dots"></span>
+<span id="more" class="more">
             <br/>
             Te prezentacje nazywane są "dememi" lub "demonstracjami". Pokazują w nich, jak potężne 
             i efektowne rzeczy można stworzyć na komputerze licząc je na żywo (podobnie jak gry). 
@@ -106,14 +108,15 @@ render() {
       </div>
 
       <a href="https://files.scene.org/get:nl-https/parties/2023/xenium23/pc_demo/demo_norferin_groundzero.zip">Plik wykonywalny (wymaga karty z RTX)</a>
-
       
-
-
+      </span>
+      <br />
+      <br />
       
-
-            </div>
-            </article>
+      <ShowHide showHideMore='dscena_more' dots='dots' more='more'/>
+      
+      </div>
+      </article>
   );
 }
 

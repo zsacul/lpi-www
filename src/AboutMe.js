@@ -6,6 +6,7 @@ import phd from './assets/files/Thesis_final_v2.pdf';
 import cert from './assets/files/Statement of Accomplishment Machine Learning Piwowar.jpg';
 import zawody from './assets/files/I_dolnoslaskie_zawody_w_programowaniu_zespolowym.jpg';
 import mcp from './assets/files/MicrosoftCertifiedProfessionalPiwowar.jpg';
+import lazik from './assets/files/lpi_lazik.jfif';
 
 
 
@@ -39,7 +40,8 @@ W 2011 roku udział w projekcie
  - rozwój współpracy pomiędzy sferą nauki i biznesu – transfer wiedzy. 
 <br />
 Od stycznia 2014 do września 2015 (od pomysłu do pierwszych 
-  <a href="https://roverchallenge.eu/"> zawodów</a>) opiekun naukowy studenckiego koła Continuum, zajmującego się projektowaniem i budową łazika marsjańskiego.
+  <a href="https://roverchallenge.eu/"> zawodów</a>) opiekun naukowy studenckiego koła Continuum, zajmującego się projektowaniem i budową .
+  <a href={lazik}> łazika marsjańskiego </a>.
 <br />
 W 2015 udział w projekcie
 Miejski Program Wsparcia Partnerstwa Szkolnictwa Wyższego i Nauki oraz Sektora Aktywności Gospodarczej
@@ -56,6 +58,7 @@ na najlepsze prace dyplomowe Instytutu Informatyki UWr pod tytułem: "Implementa
 Promotor zwycięskiej pracy dyplomowej w konkursie
 <a href="https://ii.uni.wroc.pl/instytut/aktualnosci/474"> Engineer 4 Science 2023 </a>
  na wydziale Matematyki i Informatyki pod tytułem: "3D pathfinding plugin for Unreal Engine" (autor: Dominik Trautman).
+ Ta sama praca zdobyła pierwszą nagrodę w konkursie na najlepszą pracę licencjacką z informatyki w roku 2023.
 <br />
 <br />
 Posiada certyfikat 

@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 import './index.js';
-import {showHide} from './showHideScript.js'
+
+import ShowHide from './ShowHide.js';
 
 class Dydaktyka extends React.Component {
   componentDidMount () {
@@ -64,6 +65,8 @@ render() {
             <li>Pracownia - Kurs tworzenia gier w silniku Unity3D (zdalnie)</li>
             <li>Pracownia - Kurs tworzenia gier w silniku Unity3D (zdalnie)</li>
             <li>Pracownia - Kurs: Wstęp do programowania w języku C (zdalnie)</li>
+<span id="dots2"></span>
+<span id="more2" class="more">
 <br />
             <h3>Semestr letni 2019/2020</h3>            
             <li>Wykład - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
@@ -71,8 +74,6 @@ render() {
             <li>Seminarium - Projekt zespołowy: silnik Unity3D i wirtualna rzeczywistość LATO</li>
             <li>Pracownia - Projekt zespołowy: silnik Unity3D i wirtualna rzeczywistość LATO</li>
 
-<span id="dots"></span>
-<span id="more">
 <br />
             <h3>Semestr zimowy 2018/2019</h3>
             <li>Wykład - Kurs tworzenia gier w silniku Unity3D</li>
@@ -259,7 +260,9 @@ render() {
 </span>
 
 <br />
-<button onClick={showHide} id="myBtnMore"> Więcej...</button>
+
+            <ShowHide showHideMore='dyd_more' dots='dots2' more='more2'/>
+
             </div>
             </article>
   );

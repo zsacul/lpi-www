@@ -31,7 +31,7 @@ class App extends React.Component {
     const nPhotos = 3;
     var photo = Math.floor(Math.random() * nPhotos)%nPhotos;
 
-    if (photo===0) this.setState({ src: "lpi1" });
+    if (photo===0) this.setState({ src: "lpi3" });
     if (photo===1) this.setState({ src: "lpi2" });
     if (photo===2) this.setState({ src: "lpi3" });
 

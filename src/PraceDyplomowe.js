@@ -39,7 +39,10 @@ Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie 
             </tr>
             <tr>
                 <td>Dominik Trautman</td>
-                <td>Customizable Pathfinding Unreal Engine 5 plugin</td>
+                <td>Customizable Pathfinding Unreal Engine 5 plugin 
+                <span title="Pierwsza nagroda w konkursie na najlepszą pracę licencjacką z informatyki w roku 2023">🏆</span>
+                <span title="Pierwsza nagroda w konkursie Engineer 4 Science 2023 na naszym wydziale">🏅</span>
+                </td>
                 <td>10 lutego 2023</td>
             </tr>
             <tr>
@@ -97,7 +100,10 @@ Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie 
                 <td>Izabela Strumecka,<br />
                     Dominik Hawryluk
                 </td>
-                <td>Implementacja systemu gier do rehabilitacji osób z zaburzeniem błędnika za pomocą posturografu</td>
+                <td>Implementacja systemu gier do rehabilitacji osób z zaburzeniem błędnika za pomocą posturografu 
+                <span title="Pierwsza nagroda w konkursie na najlepszą pracę licencjacką z informatyki w roku 2020">🏆</span>
+                <span title="Nagroda publiczności za najlepszą prezentacje w roku 2020">🏆</span>
+                </td>
                 <td>15 września 2020</td>
             </tr>
             <tr>
