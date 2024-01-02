@@ -56,7 +56,7 @@ render() {
 
       Po party Sir Tomasz zmienił nicka na Juve i wzięliśmy się do pracy. 
       Weźcie pod uwagę to, że przed "próbą generalną II" widzieliśmy tylko produkcję z "próby generalnej I" (z nieśmiertelnego czasopisma CD-Action).
-      W maju 1996 zaczęliśmy demo na "Staszic Compo III". 
+      W maju 1996 rozpoczęliśmy pracę nad demem na "Staszic Compo III". 
       Demo zajęło pierwsze miejsce i nosiło nazwę "Contribution to Nirvana" (niestety były wystawione tylko dwa dema). <br/>
       Kilka miesięcy później Lavina (dawniej Kuba) dołączył do nas jako muzyk. <br/>
       W listopadzie 1996 pokazaliśmy nasze kolejne demo o nazwie "Blue Flush", które zajęło trzecie miejsce na Gravity'96. <br/>

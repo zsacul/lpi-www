@@ -40,8 +40,7 @@ W 2011 roku udział w projekcie
  - rozwój współpracy pomiędzy sferą nauki i biznesu – transfer wiedzy. 
 <br />
 Od stycznia 2014 do września 2015 (od pomysłu do pierwszych 
-  <a href="https://roverchallenge.eu/"> zawodów</a>) opiekun naukowy studenckiego koła Continuum, zajmującego się projektowaniem i budową .
-  <a href={lazik}> łazika marsjańskiego </a>.
+  <a href="https://roverchallenge.eu/"> zawodów</a>) opiekun naukowy studenckiego koła Continuum, zajmującego się projektowaniem i budową <a href={lazik}> łazika marsjańskiego </a>.
 <br />
 W 2015 udział w projekcie
 Miejski Program Wsparcia Partnerstwa Szkolnictwa Wyższego i Nauki oraz Sektora Aktywności Gospodarczej
@@ -68,7 +67,7 @@ oraz z zakresu
 <br />
 W latach 2013-2022 CEO spółki BRIGHTER3D SOFTWARE DEVELOPMENT LTD. sprzedającej m.in.
 <a href="https://www.brighter3d.com"> plugin  </a> 
-do liczenia autorską metodą fotorealistycznych obrazów pozbawionych szumu.
+do liczenia fotorealistycznych obrazów pozbawionych szumu autorską metodą.
 <br /><br />
 <a href="./#demoscena"> Demoscener</a>.
 <br /><br />
