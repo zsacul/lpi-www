@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lpi-www/static/css/main.9691e0c8.chunk.css",
-    "main.js": "/lpi-www/static/js/main.2a04dae2.chunk.js",
-    "main.js.map": "/lpi-www/static/js/main.2a04dae2.chunk.js.map",
-    "runtime-main.js": "/lpi-www/static/js/runtime-main.0010edbb.js",
-    "runtime-main.js.map": "/lpi-www/static/js/runtime-main.0010edbb.js.map",
-    "static/js/2.f2beb812.chunk.js": "/lpi-www/static/js/2.f2beb812.chunk.js",
-    "static/js/2.f2beb812.chunk.js.map": "/lpi-www/static/js/2.f2beb812.chunk.js.map",
-    "static/js/3.b9052d79.chunk.js": "/lpi-www/static/js/3.b9052d79.chunk.js",
-    "static/js/3.b9052d79.chunk.js.map": "/lpi-www/static/js/3.b9052d79.chunk.js.map",
+    "main.css": "/lpi-www/static/css/main.576109c6.chunk.css",
+    "main.js": "/lpi-www/static/js/main.636928c3.chunk.js",
+    "main.js.map": "/lpi-www/static/js/main.636928c3.chunk.js.map",
+    "runtime-main.js": "/lpi-www/static/js/runtime-main.1ca7db3e.js",
+    "runtime-main.js.map": "/lpi-www/static/js/runtime-main.1ca7db3e.js.map",
+    "static/js/2.7daebdc2.chunk.js": "/lpi-www/static/js/2.7daebdc2.chunk.js",
+    "static/js/2.7daebdc2.chunk.js.map": "/lpi-www/static/js/2.7daebdc2.chunk.js.map",
+    "static/js/3.1d3a9851.chunk.js": "/lpi-www/static/js/3.1d3a9851.chunk.js",
+    "static/js/3.1d3a9851.chunk.js.map": "/lpi-www/static/js/3.1d3a9851.chunk.js.map",
     "index.html": "/lpi-www/index.html",
-    "static/css/main.9691e0c8.chunk.css.map": "/lpi-www/static/css/main.9691e0c8.chunk.css.map",
-    "static/js/2.f2beb812.chunk.js.LICENSE.txt": "/lpi-www/static/js/2.f2beb812.chunk.js.LICENSE.txt",
+    "static/css/main.576109c6.chunk.css.map": "/lpi-www/static/css/main.576109c6.chunk.css.map",
+    "static/js/2.7daebdc2.chunk.js.LICENSE.txt": "/lpi-www/static/js/2.7daebdc2.chunk.js.LICENSE.txt",
     "static/media/I_dolnoslaskie_zawody_w_programowaniu_zespolowym.b7d76e36.jpg": "/lpi-www/static/media/I_dolnoslaskie_zawody_w_programowaniu_zespolowym.b7d76e36.jpg",
     "static/media/MicrosoftCertifiedProfessionalPiwowar.bf54d46f.jpg": "/lpi-www/static/media/MicrosoftCertifiedProfessionalPiwowar.bf54d46f.jpg",
     "static/media/Statement of Accomplishment Machine Learning Piwowar.999db462.jpg": "/lpi-www/static/media/Statement of Accomplishment Machine Learning Piwowar.999db462.jpg",
@@ -23,9 +23,9 @@
     "static/media/lpi_lazik.8f70de14.jfif": "/lpi-www/static/media/lpi_lazik.8f70de14.jfif"
   },
   "entrypoints": [
-    "static/js/runtime-main.0010edbb.js",
-    "static/js/2.f2beb812.chunk.js",
-    "static/css/main.9691e0c8.chunk.css",
-    "static/js/main.2a04dae2.chunk.js"
+    "static/js/runtime-main.1ca7db3e.js",
+    "static/js/2.7daebdc2.chunk.js",
+    "static/css/main.576109c6.chunk.css",
+    "static/js/main.636928c3.chunk.js"
   ]
 }
