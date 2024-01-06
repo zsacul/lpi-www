@@ -57,11 +57,16 @@ render() {
 <div id="main">
     <div className='inner'>
         <header id="header">
+
+          <a href="https://www.codewars.com/users/zsacul">
+          <img src='https://www.codewars.com/users/zsacul/badges/small' alt="zsacul codewars" /></a>        
+        
           <ul className="icons">
             <li><a href="https://www.facebook.com/zsacul" className='icon brands fa-facebook-f'><span className="label">Facebook</span></a></li>                        
             <li><a href="https://www.youtube.com/channel/UCtg8k7k4wdwnWLx_uaKtaRw" className='icon brands fa-youtube'><span className="label">YouTube (lpi)</span></a></li>
             <li><a href="https://www.youtube.com/user/zsacul" className='icon brands fa-youtube'><span className="label">YouTube (zsacul)</span></a></li>
-            <li><a href="https://www.linkedin.com/in/zsacul" className='icon brands fa-linkedin'><span className="label">linkedin</span></a></li>
+            <li><a href="https://www.linkedin.com/in/zsacul" className='icon brands fa-linkedin'><span className="label">LinkedIn</span></a></li>
+            <li><a href="https://www.github.com/zsacul" className='icon brands fa-github'><span className="label">GitHub</span></a></li>
           </ul>
         </header>
    
