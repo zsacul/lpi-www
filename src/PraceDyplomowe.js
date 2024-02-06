@@ -28,6 +28,11 @@ Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie 
         </thead>
         <tbody>
             <tr>
+                <td>Aleksander Łopusiewicz</td>
+                <td>Gra Hexogram - implementacja nonogramów na sześciokątach oraz agentów rozwiązujących te łamigłówki z wykorzystaniem Unity ML Agents</td>
+                <td>5 stycznia 2024</td>
+            </tr>
+            <tr>
                 <td>Katsiaryna Yalovik</td>
                 <td>Aplikacja inteligentny budzik</td>
                 <td>14 września 2023</td>
