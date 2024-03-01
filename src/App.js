@@ -42,7 +42,8 @@ class App extends React.Component {
   }
 
   getImage = (image) => {
-    return <img className="testimg" src={require(`./assets/images/${image}.jpg`).default} alt="Łukasz Piwowar zdjęcie" />
+    
+    return <img className="testimg" src={require(`./assets/images/${image}.jpg`)} alt="dr Łukasz Piwowar - zdjęcie" />
  }
 
 render() {
@@ -84,6 +85,7 @@ render() {
           </div>
           <span className='image object'>
           
+
           {this.getImage(src)}
           </span>
         </section>

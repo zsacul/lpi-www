@@ -18,7 +18,7 @@ render() {
             
             <br/>
 <span id="dots"></span>
-<span id="more" class="more">
+<span id="more" className="more">
             <br/>
             Te prezentacje nazywane są "dememi" lub "demonstracjami". Pokazują w nich, jak potężne 
             i efektowne rzeczy można stworzyć na komputerze licząc je na żywo (podobnie jak gry). 
@@ -31,14 +31,14 @@ render() {
             <br/>
             Future Crew - Second Reality (1993)          
 
-            <div class="video-container">
-            <iframe class="video" src="https://www.youtube.com/embed/iw17c70uJes" title="Future Crew - Second Reality (1993) [60fps]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>            
+            <div className="video-container">
+            <iframe className="video" src="https://www.youtube.com/embed/iw17c70uJes" title="Future Crew - Second Reality (1993) [60fps]" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>            
             </div>
             <br/>
             Crystal Dream 2 by Triton (1993)
             
-            <div class="video-container">
-            <iframe class="video"src="https://www.youtube.com/embed/7mWbnVPwX4U" title="Triton - Crystal Dream 2 (1993) [60fps]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+            <div className="video-container">
+            <iframe className="video"src="https://www.youtube.com/embed/7mWbnVPwX4U" title="Triton - Crystal Dream 2 (1993) [60fps]" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
             </div>
             <br/>
 
@@ -86,8 +86,8 @@ render() {
       <br/>
       <br/>
 
-      <div class="video-container">
-      <iframe class="video" src="https://www.youtube.com/embed/8QLLSGyxsLc" title="Live The Trance - Norferin Demo at Revision 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>      
+      <div className="video-container">
+      <iframe className="video" src="https://www.youtube.com/embed/8QLLSGyxsLc" title="Live The Trance - Norferin Demo at Revision 2020" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>      
       </div>
 
       <a href="https://drive.google.com/uc?id=1dqNwKjZjJ0DdROXMiZ-sU7QM-6KPJhet">Plik wykonywalny</a>
@@ -103,8 +103,8 @@ render() {
       <br/>
       <br/>
 
-      <div class="video-container">
-      <iframe class="video" src="https://www.youtube.com/embed/IoL8q9NVjQw" title="Ground Zero - Norferin Demo at Xenium 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+      <div className="video-container">
+      <iframe className="video" src="https://www.youtube.com/embed/IoL8q9NVjQw" title="Ground Zero - Norferin Demo at Xenium 2023" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
       </div>
 
       <a href="https://files.scene.org/get:nl-https/parties/2023/xenium23/pc_demo/demo_norferin_groundzero.zip">Plik wykonywalny (wymaga karty z RTX)</a>

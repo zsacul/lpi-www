@@ -72,7 +72,7 @@ render() {
             <li>Pracownia - Kurs tworzenia gier w silniku Unity3D (zdalnie)</li>
             <li>Pracownia - Kurs: Wstęp do programowania w języku C (zdalnie)</li>
 <span id="dots2"></span>
-<span id="more2" class="more">
+<span id="more2" className="more">
 <br />
             <h3>Semestr letni 2019/2020</h3>            
             <li>Wykład - Kurs modelowania 3d i wizualizacji w programie SketchUp</li>
