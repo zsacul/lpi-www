@@ -13,6 +13,12 @@ render() {
 
             <article>
             <div className='content'>
+<br />              
+            <h3>Semestr letni 2023/2024</h3>
+            <li>Wykład - Kurs programowania gier w silniku Unreal 5</li>
+            <li>Pracownia - Kurs programowania gier w silniku Unreal 5</li>
+            <li>Pracownia - Kurs języka C++</li>
+            <li>Pracownia - Kurs React</li>
 <br />
             <h3>Semestr zimowy 2023/2024</h3>
             <li>Wykład - Kurs tworzenia gier w silniku Unity3D</li>
