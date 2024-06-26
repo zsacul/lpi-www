@@ -11,9 +11,9 @@ render() {
 <div className='content'>
 <h3>Zainteresowania</h3>
 Jako promotora interesują mnie głównie prace, które mają zastosowane w rzeczywistości i niezerowy wpływ na życie ludzi.
-Interesuje się wszystkim, co jest związane z grafiką komputerową: od ultra realistycznej (liczonej godzinami) do tej czasu rzeczywistego, a także wirtualną/rozszerzoną/mieszaną rzeczywistością.
+Interesuje się wszystkim, co jest związane z grafiką komputerową: od ultra realistycznej (liczonej godzinami) do tej czasu rzeczywistego, a także wirtualną / rozszerzoną / mieszaną rzeczywistością.
 <br />
-Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie lubię javy, R i pythona (ale javy najbardziej). Nie chcę już pisać w basic'u, pascal'u i asemblerze.
+Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie lubię javy, R i pythona (ale javy najbardziej). Nie chcę już pisać ani sprawdzać programów w basic'u, pascal'u i asemblerze.
 <br />
 <br />
 <h3>Obronione prace których byłem promotorem</h3>
@@ -27,6 +27,17 @@ Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie 
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td>Paweł Karaś</td>
+                <td>Amber - nowy ściśle typowany skryptowy język programowania, kompilowany do języka Bash, oparty na frameworku Heraclitus</td>
+                <td>21 czerwca 2024</td>
+            </tr>
+            <tr>
+                <td>Maksymilian Polarczyk</td>
+                <td>SDF (Signed Distance Field) functions visual editor in Unity</td>
+                <td>21 czerwca 2024</td>
+            </tr>
+
             <tr>
                 <td>Aleksander Łopusiewicz</td>
                 <td>Gra Hexogram - implementacja nonogramów na sześciokątach oraz agentów rozwiązujących te łamigłówki z wykorzystaniem Unity ML Agents</td>
