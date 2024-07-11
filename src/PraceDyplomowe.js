@@ -13,7 +13,13 @@ render() {
 Jako promotora interesują mnie głównie prace, które mają zastosowane w rzeczywistości i niezerowy wpływ na życie ludzi.
 Interesuje się wszystkim, co jest związane z grafiką komputerową: od ultra realistycznej (liczonej godzinami) do tej czasu rzeczywistego, a także wirtualną / rozszerzoną / mieszaną rzeczywistością.
 <br />
-Lubię języki: rust, c#, c/c++, ruby, javascript a także framework react. Nie lubię javy, R i pythona (ale javy najbardziej). Nie chcę już pisać ani sprawdzać programów w basic'u, pascal'u i asemblerze.
+Lubię języki:
+<a href="https://www.codingame.com/certification/tMseqNWh_3ESye0A3_AYLA"> rust</a>, c#,
+<a href="https://www.codingame.com/certification/oIBW2pb5-8MwHXlVCz1PRg"> c</a>,
+<a href="https://www.codingame.com/certification/WPCpw6yfoWv8IlZiwllwFQ"> c++</a>,
+<a href="https://www.codingame.com/certification/MePxU_ClBwAQSZHdu_vYMg"> ruby</a>
+, javascript a także framework react. Nie lubię javy, R i pythona (ale javy najbardziej). Nie chcę już pisać ani sprawdzać programów w basic'u, pascal'u i asemblerze.
+
 <br />
 <br />
 <h3>Obronione prace których byłem promotorem</h3>
