@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "797025e475a32ebfbb1f776233455cea",
+    "revision": "40565502309dbcdba5b99ad3e5d8e76f",
     "url": "/lpi-www/index.html"
   },
   {
-    "revision": "2b075f579ab78d81ef00",
+    "revision": "4e40c772cddb8a6a5d3b",
     "url": "/lpi-www/static/css/main.8621f745.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lpi-www/static/js/3.e2cc0ae3.chunk.js"
   },
   {
-    "revision": "2b075f579ab78d81ef00",
-    "url": "/lpi-www/static/js/main.fdf04a18.chunk.js"
+    "revision": "4e40c772cddb8a6a5d3b",
+    "url": "/lpi-www/static/js/main.967e7559.chunk.js"
   },
   {
     "revision": "cd5b5324cde6e682925d",
