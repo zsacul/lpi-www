@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lpi-www/static/css/main.8621f745.chunk.css",
-    "main.js": "/lpi-www/static/js/main.967e7559.chunk.js",
-    "main.js.map": "/lpi-www/static/js/main.967e7559.chunk.js.map",
+    "main.js": "/lpi-www/static/js/main.09586249.chunk.js",
+    "main.js.map": "/lpi-www/static/js/main.09586249.chunk.js.map",
     "runtime~main.js": "/lpi-www/static/js/runtime~main.eaf3a66d.js",
     "runtime~main.js.map": "/lpi-www/static/js/runtime~main.eaf3a66d.js.map",
     "static/js/2.f6358b07.chunk.js": "/lpi-www/static/js/2.f6358b07.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e2cc0ae3.chunk.js": "/lpi-www/static/js/3.e2cc0ae3.chunk.js",
     "static/js/3.e2cc0ae3.chunk.js.map": "/lpi-www/static/js/3.e2cc0ae3.chunk.js.map",
     "index.html": "/lpi-www/index.html",
-    "precache-manifest.393956bfa0107fc20a5bbe4e789c926e.js": "/lpi-www/precache-manifest.393956bfa0107fc20a5bbe4e789c926e.js",
+    "precache-manifest.5632f92911ab20aed7cb6851d965b0f5.js": "/lpi-www/precache-manifest.5632f92911ab20aed7cb6851d965b0f5.js",
     "service-worker.js": "/lpi-www/service-worker.js",
     "static/css/main.8621f745.chunk.css.map": "/lpi-www/static/css/main.8621f745.chunk.css.map",
     "static/media/I_dolnoslaskie_zawody_w_programowaniu_zespolowym.jpg": "/lpi-www/static/media/I_dolnoslaskie_zawody_w_programowaniu_zespolowym.43a4d0fd.jpg",
