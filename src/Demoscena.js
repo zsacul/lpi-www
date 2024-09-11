@@ -115,7 +115,7 @@ render() {
       Kolejne demo planowaliśmy wystawić na party Revision w Saarbrücken, niestety wskutek użycia niestabilnej technologii 
       (NVIDIA RTX Branch of Unreal Engine 5), demo zawieszało się 15 sekund przed końcem i musieliśmy je wycofać. 
       Udało się na kolejnym party. Demo zajęło 4 miejsce (na 10) w najważniejszej kategorii na Xenium Demoparty 2024. 
-      W tym czasie dołączył do nas Hellmet jako grafik 2d.
+      W tym czasie dołączył do nas Hellmet jako grafik 2d. Podczas oglądania przęłączcie jakość w YouTube na 4K nawet na ekranie FullHD...
       
       <br/>
       <br/>
