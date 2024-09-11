@@ -108,10 +108,34 @@ render() {
       </div>
 
       <a href="https://files.scene.org/get:nl-https/parties/2023/xenium23/pc_demo/demo_norferin_groundzero.zip">Plik wykonywalny (wymaga karty z RTX)</a>
+
+      <br/>
+      <br/>
+
+      Kolejne demo planowaliśmy wystawić na party Revision w Saarbrücken, niestety wskutek użycia niestabilnej technologii 
+      (NVIDIA RTX Branch of Unreal Engine 5), demo zawieszało się 15 sekund przed końcem i musieliśmy je wycofać. 
+      Udało się na kolejnym party. Demo zajęło 4 miejsce (na 10) w najważniejszej kategorii na Xenium Demoparty 2024. 
+      W tym czasie dołączył do nas Hellmet jako grafik 2d.
       
+      <br/>
+      <br/>
+      
+      <div className="video-container">
+      <iframe className="video" src="https://www.youtube.com/embed/jpK45gjv0yA" title="I wanna be - Norferin Demo at Xenium 2024" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen={true}></iframe>
+      </div>
+      <a href="https://drive.google.com/file/d/1P5HdTZ3jahV-WxR2Hip9TiYQ2Ld5cGEJ/view?usp=sharing">Plik wykonywalny (wymaga karty 3060 RTX lub lepszej)</a>
+
+
+
       </span>
       <br />
       <br />
+
+
+
+      
+
+
       
       <ShowHide showHideMore='dscena_more' dots='dots' more='more'/>
       
