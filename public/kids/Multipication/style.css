@@ -1,0 +1,83 @@
+/* style.css */
+
+body {
+    background-color: #f0f8ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+#game-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#mascot {
+    width: 150px;
+    height: 150px;
+    background-image: url('images/neutral.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+#question {
+    font-size: 48px;
+    margin: 20px 0;
+    animation: bounce 1s infinite;
+}
+
+#answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.answer-button {
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    font-size: 24px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.answer-button:hover {
+    transform: scale(1.1);
+}
+
+#score-board {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#progress-bar {
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+#progress {
+    width: 0%;
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 5px;
+}
+
+#message {
+    font-size: 32px;
+    color: #ff5722;
+    height: 40px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+}
