@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun Multiplication Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Mascot Character -->
+        <div id="mascot"></div>
+        <!-- Display the multiplication problem -->
+        <div id="question"></div>
+        <!-- Answer options -->
+        <div id="answers"></div>
+        <!-- Score and Streak -->
+        <div id="score-board">
+            <div id="score">Score 0</div>
+            <div id="streak">Streak 0</div>
+            <div id="high-score">High 0</div>
+        </div>
+        <!-- Progress Bar -->
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
+        <!-- Encouraging Message -->
+        <div id="message"></div>
+    </div>
+    <button id="music-toggle">Toggle Music</button>
+    <audio id="correct-sound" src="sounds/correct.wav"></audio>
+    <audio id="wrong-sound"   src="sounds/wrong.wav"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
