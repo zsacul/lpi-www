@@ -185,6 +185,7 @@ render() {
             <li><a href="./#dydaktyka">Dydaktyka</a></li>
             <li><a href="./#prace">Prace Dyplomowe</a></li>
             <li><a href="./#demoscena">Demoscena</a></li>
+            <li><a href={process.env.PUBLIC_URL + '/kids/multipication/mulit.html'}>Dla dzieci (WIP)</a></li>
             <li><a href="./#omnie">O mnie</a></li>
           </ul>
         </nav>
