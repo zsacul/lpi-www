@@ -14,13 +14,50 @@ const messageElement = document.getElementById('message');
 const mascotElement = document.getElementById('mascot');
 const correctSound = document.getElementById('correct-sound');
 const wrongSound = document.getElementById('wrong-sound');
+const modeElement = document.getElementById('mode');
+const highScoreElement = document.getElementById('high-score');
+
+// Read mode from URL parameters
+const urlParams = new URLSearchParams(window.location.search);
+const mode = urlParams.get('mode');
+
+modeElement.value = mode==null? "mul10" : mode;
 
 function generateProblem() {
-    const num1 = getRandomInt(1, 10);
-    const num2 = getRandomInt(1, 10);
-    const correctAnswer = num1 * num2;
-
-    questionElement.textContent = `${num1} × ${num2} = ?`;
+    let num1, num2, correctAnswer;
+    switch (mode) {
+        case 'add10':
+            num1 = getRandomInt(1, 10);
+            num2 = getRandomInt(1, 10);
+            correctAnswer = num1 + num2;
+            questionElement.textContent = `${num1} + ${num2} = ?`;
+            break;
+        case 'add20':
+            num1 = getRandomInt(1, 20);
+            num2 = getRandomInt(1, 20);
+            correctAnswer = num1 + num2;
+            questionElement.textContent = `${num1} + ${num2} = ?`;
+            break;
+        case 'add50':
+            num1 = getRandomInt(1, 50);
+            num2 = getRandomInt(1, 50);
+            correctAnswer = num1 + num2;
+            questionElement.textContent = `${num1} + ${num2} = ?`;
+            break;
+        case 'mul5':
+            num1 = getRandomInt(1, 5);
+            num2 = getRandomInt(1, 5);
+            correctAnswer = num1 * num2;
+            questionElement.textContent = `${num1} × ${num2} = ?`;
+            break;
+        case 'mul10':
+        default:
+            num1 = getRandomInt(1, 10);
+            num2 = getRandomInt(1, 10);
+            correctAnswer = num1 * num2;
+            questionElement.textContent = `${num1} × ${num2} = ?`;
+            break;
+    }
 
     const answers = generateAnswers(correctAnswer);
     displayAnswers(answers, correctAnswer);
@@ -76,11 +113,6 @@ function checkAnswer(selectedAnswer, correctAnswer, button) {
     }, wait_time);
 }
 
-function updateScoreBoard() {
-    scoreElement.textContent = `Score ${score}`;
-    streakElement.textContent = `Streak ${streak}`;
-}
-
 function updateProgressBar() {
     if (progress >= 100) {
         progress = 0;
@@ -111,6 +143,33 @@ function shuffleArray(array) {
     return array.sort(() => Math.random() - 0.5);
 }
 
+
+// Functions to set and get cookies
+function setCookie(name, value, days) {
+    const d = new Date();
+    d.setTime(d.getTime() + days * 24 * 60 * 60 * 1000); // Set expiration
+    const expires = `expires=${d.toUTCString()}`;
+    document.cookie = `${name}=${value};${expires};path=/`;
+}
+
+function getCookie(name) {
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookiesArray = decodedCookie.split(';');
+    const cname = `${name}=`;
+    for (let cookie of cookiesArray) {
+        cookie = cookie.trim();
+        if (cookie.indexOf(cname) === 0) {
+            return cookie.substring(cname.length, cookie.length);
+        }
+    }
+    return '';
+}
+
+function getBestScore()
+{
+    getCookie('bestScore_' + modeElement.value);
+}
+
 // Initialize game
 generateProblem();
 updateScoreBoard();
@@ -133,14 +192,27 @@ musicToggle.addEventListener('click', () => {
 
 // Store high scores in localStorage
 window.addEventListener('beforeunload', () => {
-    localStorage.setItem('bestScore', score);
-});
-
-// Load high score on startup
-window.addEventListener('load', () => {
-    const storedScore = localStorage.getItem('bestScore');
-    if (storedScore) {
-        score = parseInt(storedScore);
-        updateScoreBoard();
+    const highScore = getBestScore();
+    if (!highScore || score > parseInt(highScore)) {
+        setCookie('bestScore_' + modeElement.value, score, 365); // Store the score for 1 year
     }
 });
+
+// Load high score from cookie on startup
+window.addEventListener('load', () => {
+    const storedScore = getBestScore();
+    //alert(storedScore);
+    if (storedScore) {
+        highScoreElement.textContent = `High Score: ${storedScore}`;
+    }
+});
+
+// Update the score board to include high score
+function updateScoreBoard() {
+    scoreElement.textContent = `Score: ${score}`;
+    streakElement.textContent = `Streak: ${streak}`;
+    const highScore = getBestScore();
+    if (!highScore || score > parseInt(highScore)) {
+        highScoreElement.textContent = `High Score: ${score}`;
+    }
+}

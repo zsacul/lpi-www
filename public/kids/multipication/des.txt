@@ -1,0 +1,107 @@
+Używając javascript, css i html
+Przygotuj grę dla dzieci uczącą tabliczki mnożenia do 10x10
+Program powinien losować dwie liczby a i b w zakesie 1..10
+a nastepnie wyświetlać napis "Ile to jest a*b="
+Wynik powinien być do wyboru z 6 przycisków ułożonych losowo
+z czego jeden jest prawidłową odpowiedzią.
+Przyciski powinny być ułożone w 2 kolumnach po 3 przyciski
+Po wybraniu odpowiedzi powinien pojawić się komunikat "Dobrze" lub "Źle"
+Po wybraniu złej odpowiedzi poprawna odpowiedź powinna być zaznaczona na zielono i po 3 sekundach
+gra powinna być kontynuowana.
+Program powinien zliczać punkty i wyświetlać je na ekranie.
+a także longes streak (najdłuższa seria poprawnych odpowiedzi).
+Po poprawnej odpowiedzi powinien być odgrywany przyjazny dzwięk.
+Program powinien mieć przyjemną dla dzieci oka grafikę.
+
+
+
+Using JavaScript, CSS and HTML, create a multiplication table learning game for children up to 10x10. The program should:
+
+Randomly select two numbers 'a' and 'b' in the range of 1..10
+Display the text "What is a*b="
+Show 6 buttons arranged randomly, where one is the correct answer
+Buttons should be arranged in 2 columns of 3 buttons each
+After selecting an answer, display "Correct" or "Wrong"
+If the wrong answer is selected, the correct answer should be highlighted in green and after 3 seconds the game should continue
+The program should keep track of points and display them on screen
+Also track the longest streak (longest series of correct answers)
+Play a friendly sound after a correct answer
+Have child-friendly graphic
+
+
+
+
+
+
+
+
+
+
+
+Here's an enhanced prompt for Copilot to create an engaging educational game:
+"Create an engaging multiplication game for kids (age 7-10) using HTML, CSS, and JavaScript. The game should be colorful, playful, and reward-based!
+Core Gameplay:
+
+Generate two random numbers (1-10) for multiplication practice
+Present the problem with animated characters (like a friendly math wizard or number monsters)
+Display 6 answer options as big, colorful buttons arranged in 2 columns
+One correct answer + 5 clever distractors that are close to the real answer
+Make buttons bounce/pulse on hover
+
+Visual Design:
+
+Use a vibrant, cartoon-style theme
+Add subtle animations for all interactions
+Include a cute mascot character that reacts to correct/incorrect answers
+Make numbers bounce or dance when displayed
+Use child-friendly fonts and rounded corners everywhere
+
+Game Features:
+
+Score counter with animated number changes
+Streak counter showing current and best streak (like "🔥 5 in a row!")
+Progress bar or level system to show advancement
+Celebratory animations for correct answers (confetti, stars, etc.)
+Gentle, encouraging feedback for wrong answers
+Green highlight for correct answer after mistakes
+
+Sound Effects:
+
+Short, cheerful success sound for correct answers
+Gentle "try again" sound for incorrect answers
+Background music toggle option
+Achievement jingle for new high scores/streaks
+
+Gamification Elements:
+
+Achievement badges (First Win, 5 in a Row, Math Wizard, etc.)
+Daily challenges with special rewards
+Progressive difficulty (starts easier, gets challenging)
+Combo multiplier for consecutive correct answers
+Encouraging messages ("Awesome!", "Super Star!", "Math Genius!")
+
+Accessibility:
+
+Clear, readable text
+High contrast colors
+Large click/touch areas
+Screen reader support
+Color-blind friendly design
+
+Code Structure:
+
+Use modern ES6+ JavaScript
+Implement clean, modular code structure
+Add detailed comments for each function
+Include error handling for edge cases
+Store high scores in localStorage
+
+Mobile Support:
+
+Responsive design for all screen sizes
+Touch-friendly interface
+Portrait and landscape orientations
+Work offline (PWA ready)
+
+This should create a fun, educational game that keeps kids engaged while learning multiplication!"
+This enhanced prompt includes more specific details about user experience, visual design, and technical implementation, which should help Copilot generate a more complete and engaging solution. Would you like me to modify any aspect of this prompt?
