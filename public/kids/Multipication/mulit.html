@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <title>Fun Math Game</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <input type="hidden" id="mode" value="">
     <div id="game-container">
-        <!-- Mascot Character -->
+        <div id="game-settings">
+            <img class="music"  id="music" src="images/Icon_MusicOn.png" alt="music on" id="music" onclick="MusicClick()">
+            <img class="sounds" id="sound" src="images/Icon_SoundOn.png" alt="sound on" id="sound" onclick="SoundClick()">
+        </div>          
+        <!-- Mascot Character -->         
         <div id="mascot"></div>
         <!-- Display the multiplication problem -->
         <div id="question"></div>
@@ -16,8 +21,8 @@
         <div id="answers"></div>
         <!-- Score and Streak -->
         <div id="score-board">
-            <div id="score">Score: 0</div>
-            <div id="streak">Streak: 0</div>
+            <div id="score">Score: 0 </div>
+            <div id="streak">Streak: 0 </div>
             <div id="high-score">High Score: 0</div>
         </div>
         <!-- Progress Bar -->
@@ -27,7 +32,7 @@
         <!-- Encouraging Message -->
         <div id="message"></div>
     </div>
-    <button id="music-toggle">Toggle Music</button>
+
     <audio id="correct-sound" src="sounds/correct.wav"></audio>
     <audio id="wrong-sound" src="sounds/wrong.wav"></audio>
     <script src="script.js"></script>
