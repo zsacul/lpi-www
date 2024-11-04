@@ -28,9 +28,12 @@ body {
 }
 
 #answers {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 400px;
 }
 
 .answer-button {

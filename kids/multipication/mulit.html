@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fun Multiplication Game</title>
+    <title>Fun Math Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="hidden" id="mode" value="">
     <div id="game-container">
         <!-- Mascot Character -->
         <div id="mascot"></div>
@@ -15,9 +16,9 @@
         <div id="answers"></div>
         <!-- Score and Streak -->
         <div id="score-board">
-            <div id="score">Score 0</div>
-            <div id="streak">Streak 0</div>
-            <div id="high-score">High 0</div>
+            <div id="score">Score: 0</div>
+            <div id="streak">Streak: 0</div>
+            <div id="high-score">High Score: 0</div>
         </div>
         <!-- Progress Bar -->
         <div id="progress-bar">
@@ -28,7 +29,7 @@
     </div>
     <button id="music-toggle">Toggle Music</button>
     <audio id="correct-sound" src="sounds/correct.wav"></audio>
-    <audio id="wrong-sound"   src="sounds/wrong.wav"></audio>
+    <audio id="wrong-sound" src="sounds/wrong.wav"></audio>
     <script src="script.js"></script>
 </body>
 </html>
