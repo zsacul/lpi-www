@@ -10,6 +10,7 @@ body {
     height: 100vh;
     overflow: hidden; /* Prevent scrolling */
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    
 }
 
 #container {
@@ -18,13 +19,14 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    width: 95%;
     max-width: 600px;
     box-sizing: border-box;
-    height: 100%; /* Ensure the container fills the height */
+    height: 50%; /* Ensure the container fills the height */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 h1 {
@@ -39,6 +41,7 @@ h1 {
 }
 
 .game-link {
+    font-size: 1.5em;
     display: block;
     padding: 15px;
     background-color: #ffcc00;
@@ -69,7 +72,7 @@ html, body {
     }
 
     .game-link {
-        font-size: 18px;
+        font-size: 28px;
         padding: 20px;
     }
 }

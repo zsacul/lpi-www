@@ -16,6 +16,9 @@ const correctSound = document.getElementById('correct-sound');
 const wrongSound = document.getElementById('wrong-sound');
 const modeElement = document.getElementById('mode');
 const highScoreElement = document.getElementById('high-score');
+const musicIcon = document.getElementById('music');
+const soundIcon = document.getElementById('sound');
+
 
 // Read mode from URL parameters
 const urlParams = new URLSearchParams(window.location.search);
@@ -86,6 +89,9 @@ function displayAnswers(answers, correctAnswer) {
 }
 
 function checkAnswer(selectedAnswer, correctAnswer, button) {
+
+    questionElement.textContent = questionElement.textContent.replace("?",correctAnswer);
+
     var wait_time = 1000;
     if (selectedAnswer === correctAnswer) {
         score += 10;
@@ -96,7 +102,8 @@ function checkAnswer(selectedAnswer, correctAnswer, button) {
         correctSound.play();
         button.style.backgroundColor = '#4caf50';
     } else {
-        wait_time = 3000;
+        wait_time = 4000;
+        score = 0;
         streak = 0;
         messageElement.textContent = 'Try Again!';
         mascotElement.style.backgroundImage = "url('images/sad.jpg')";
@@ -174,21 +181,6 @@ function getBestScore()
 generateProblem();
 updateScoreBoard();
 
-// Music Toggle (Optional)
-const musicToggle = document.getElementById('music-toggle');
-let isMusicPlaying = false;
-const backgroundMusic = new Audio('sounds/background.mp3');
-backgroundMusic.loop = true;
-
-musicToggle.addEventListener('click', () => {
-    if (isMusicPlaying) {
-        backgroundMusic.pause();
-        isMusicPlaying = false;
-    } else {
-        backgroundMusic.play();
-        isMusicPlaying = true;
-    }
-});
 
 // Store high scores in localStorage
 window.addEventListener('beforeunload', () => {
@@ -198,6 +190,17 @@ window.addEventListener('beforeunload', () => {
     }
 });
 
+// Music Toggle (Optional)
+const musicToggle = document.getElementById('music');
+const soundToggle = document.getElementById('sound');
+let isMusicOn = !true;
+let isSoundOn = true;
+
+const backgroundMusic = new Audio('sounds/background.mp3');
+backgroundMusic.loop = true;
+
+
+
 // Load high score from cookie on startup
 window.addEventListener('load', () => {
     const storedScore = getBestScore();
@@ -205,14 +208,47 @@ window.addEventListener('load', () => {
     if (storedScore) {
         highScoreElement.textContent = `High Score: ${storedScore}`;
     }
+
 });
 
 // Update the score board to include high score
 function updateScoreBoard() {
-    scoreElement.textContent = `Score: ${score}`;
-    streakElement.textContent = `Streak: ${streak}`;
+     scoreElement.textContent = `Score: ${score} `;
+    streakElement.textContent = `Streak: ${streak} `;
     const highScore = getBestScore();
     if (!highScore || score > parseInt(highScore)) {
-        highScoreElement.textContent = `High Score: ${score}`;
+        highScoreElement.textContent = `High Score: ${score} `;
     }
 }
+
+
+
+function MusicClick() 
+{
+    isMusicOn = !isMusicOn;
+
+    if (!isMusicOn) {
+        backgroundMusic.pause();
+        musicIcon.src = 'images/Icon_MusicOff.png';
+    } else {
+        backgroundMusic.play();
+        musicIcon.src = 'images/Icon_MusicOn.png';
+    }
+}
+
+function SoundClick() 
+{
+    const isSoundOn = correctSound.muted;
+    correctSound.muted = !isSoundOn;
+      wrongSound.muted = !isSoundOn;
+    soundIcon.src = isSoundOn ? 'images/Icon_SoundOn.png' : 'images/Icon_SoundOff.png';
+}
+
+
+// Start background music on first user interaction
+document.addEventListener('click', () => {
+    if (!isMusicOn) {
+        backgroundMusic.play();
+        isMusicOn = true;
+    }
+}, { once: true });
