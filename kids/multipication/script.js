@@ -11,7 +11,7 @@ const scoreElement = document.getElementById('score');
 const streakElement = document.getElementById('streak');
 const progressElement = document.getElementById('progress');
 const messageElement = document.getElementById('message');
-const mascotElement = document.getElementById('mascot');
+const mascotElement = null;//document.getElementById('mascot');
 const correctSound = document.getElementById('correct-sound');
 const wrongSound = document.getElementById('wrong-sound');
 const modeElement = document.getElementById('mode');
@@ -98,7 +98,7 @@ function checkAnswer(selectedAnswer, correctAnswer, button) {
         streak += 1;
         progress += 5;
         messageElement.textContent = getEncouragingMessage();
-        mascotElement.style.backgroundImage = "url('images/happy.jpg')";
+        //mascotElement.style.backgroundImage = "url('images/happy.jpg')";
         correctSound.play();
         button.style.backgroundColor = '#4caf50';
     } else {
@@ -106,7 +106,7 @@ function checkAnswer(selectedAnswer, correctAnswer, button) {
         score = 0;
         streak = 0;
         messageElement.textContent = 'Try Again!';
-        mascotElement.style.backgroundImage = "url('images/sad.jpg')";
+        //mascotElement.style.backgroundImage = "url('images/sad.jpg')";
         wrongSound.play();
         button.style.backgroundColor = '#f44336';
         highlightCorrectAnswer(correctAnswer);
@@ -115,7 +115,7 @@ function checkAnswer(selectedAnswer, correctAnswer, button) {
     updateProgressBar();
     setTimeout(() => {
         messageElement.textContent = '';
-        mascotElement.style.backgroundImage = "url('images/neutral.jpg')";
+        //mascotElement.style.backgroundImage = "url('images/neutral.jpg')";
         generateProblem();
     }, wait_time);
 }
@@ -150,7 +150,7 @@ function shuffleArray(array) {
     return array.sort(() => Math.random() - 0.5);
 }
 
-
+var hs = 0;
 // Functions to set and get cookies
 function setCookie(name, value, days) {
     const d = new Date();
@@ -174,7 +174,12 @@ function getCookie(name) {
 
 function getBestScore()
 {
-    getCookie('bestScore_' + modeElement.value);
+    return hs;// getCookie('bestScore_' + modeElement.value);
+}
+
+function setBestScore(val)
+{
+    hs = val;
 }
 
 // Initialize game
@@ -185,8 +190,11 @@ updateScoreBoard();
 // Store high scores in localStorage
 window.addEventListener('beforeunload', () => {
     const highScore = getBestScore();
-    if (!highScore || score > parseInt(highScore)) {
-        setCookie('bestScore_' + modeElement.value, score, 365); // Store the score for 1 year
+    
+    if (!highScore || score > parseInt(highScore)) 
+    {
+        setBestScore(score);
+        //setCookie('bestScore_' + modeElement.value, score, 365); // Store the score for 1 year
     }
 });
 
@@ -216,7 +224,9 @@ function updateScoreBoard() {
      scoreElement.textContent = `Score: ${score} `;
     streakElement.textContent = `Streak: ${streak} `;
     const highScore = getBestScore();
+    
     if (!highScore || score > parseInt(highScore)) {
+        setBestScore(score);
         highScoreElement.textContent = `High Score: ${score} `;
     }
 }
@@ -242,6 +252,11 @@ function SoundClick()
     correctSound.muted = !isSoundOn;
       wrongSound.muted = !isSoundOn;
     soundIcon.src = isSoundOn ? 'images/Icon_SoundOn.png' : 'images/Icon_SoundOff.png';
+}
+
+function BackClick() 
+{
+    window.location.href = 'index.html';
 }
 
 

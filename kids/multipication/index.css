@@ -8,42 +8,39 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden; /* Prevent scrolling */
+    /*overflow: hidden;*/ /* Prevent scrolling */
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
-    
 }
 
 #container {
     text-align: center;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 1em;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 95%;
-    max-width: 600px;
     box-sizing: border-box;
-    height: 50%; /* Ensure the container fills the height */
+    width: 95%;
+    height: 95%; /* Ensure the container fills the height */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 h1 {
     color: #333;
-    margin-bottom: 20px;
+    
 }
 
 #links {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.6em;
 }
 
 .game-link {
-    font-size: 1.5em;
+    font-size: 2.5em;
     display: block;
-    padding: 15px;
+    padding: 0.5em;
     background-color: #ffcc00;
     color: #333;
     text-decoration: none;
@@ -67,12 +64,22 @@ html, body {
     #container {
         width: 100%;
         height: 100%;
-        border-radius: 0;
+        border-radius: 12;
         box-shadow: none;
     }
 
     .game-link {
         font-size: 28px;
         padding: 20px;
+        height: 1em;
     }
 }
+
+@media (orientation: landscape) {
+    .game-link {
+        font-size: 1em;
+        padding: 1em;
+        height: 0.5em;
+    }
+}
+

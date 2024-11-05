@@ -9,12 +9,13 @@
 <body>
     <input type="hidden" id="mode" value="">
     <div id="game-container">
-        <div id="game-settings">
-            <img class="music"  id="music" src="images/Icon_MusicOn.png" alt="music on" id="music" onclick="MusicClick()">
-            <img class="sounds" id="sound" src="images/Icon_SoundOn.png" alt="sound on" id="sound" onclick="SoundClick()">
-        </div>          
+        
+        
         <!-- Mascot Character -->         
+
+        <!-- 
         <div id="mascot"></div>
+        -->
         <!-- Display the multiplication problem -->
         <div id="question"></div>
         <!-- Answer options -->
@@ -31,6 +32,11 @@
         </div>
         <!-- Encouraging Message -->
         <div id="message"></div>
+
+        <img class="music"  id="music" src="images/Icon_MusicOn.png"   alt="music on" onclick="MusicClick()">
+        <img class="sounds" id="sound" src="images/Icon_SoundOn.png"   alt="sound on" onclick="SoundClick()">
+        <img class="back"   id="back"  src="images/Icon_ArrowLeft.png" alt="back"     onclick="BackClick()">        
+
     </div>
 
     <audio id="correct-sound" src="sounds/correct.wav"></audio>

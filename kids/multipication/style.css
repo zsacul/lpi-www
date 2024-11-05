@@ -2,30 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 
 body {
-    background-color: #ffffff;
-    font-family: 'Comic Neue', cursive, sans-serif;    
+    font-family: 'Comic Neue Bold', cursive,sans-serif;    
     margin: 0;
     overflow: hidden;
+    background-image: url('images/back.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #game-container {
     text-align: center;
     padding: 20px;
+    width: 100%; /* Ensure the container takes the full width */
+    max-width: 800px; /* Optional: Set a max-width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    box-sizing: border-box;
 }
 
 #mascot {
-    width: 150px;
-    height: 150px;
+    width: 10em;
+    height: 10em;
     background-image: url('images/neutral.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0 auto;    
+    margin: 0 auto; /* Center the mascot horizontally */
 }
 
 #question {
-    font-size: 48px;
+    font-size: 6em;
     margin: 20px 0;
     animation: bounce 1s infinite;
+    color: #eaff00ab;
+    
+    
+    
 }
 
 #answers {
@@ -39,26 +49,31 @@ body {
 
 .sounds {
     position: absolute;    
-    height: 5%;
+    height: 4em;
     left:3%;
     top: 2%;
     
 }
 
+.back  {
+    position: absolute;    
+    height: 4em;
+    left:3%;
+    bottom: 2%;    
+}
+
 .music  {
     position: absolute;
-    
-    height: 5%;
+    height: 4em;
     right:3%;
     top: 2%;
-    
 }
 
 .answer-button {
     width: 160px;
     height: 100px;
     margin: 10px;
-    font-size: 30px;
+    font-size: 3.6em;
     background-color: #ffcc00;
     border: none;
     border-radius: 10px;
@@ -75,6 +90,8 @@ body {
     justify-content: space-around;
     margin: 20px 0;
     font-size: 24px;
+    color: #eaff00ab;
+    
 }
 
 #progress-bar {
@@ -100,7 +117,7 @@ body {
     
     position: absolute;
     transform: translateX(-50%);
-    top: 100pt;
+    top: 0.2em;
     left: 50%;
     
 }
@@ -125,10 +142,11 @@ body {
         align-items: center;
         height: 100vh;
         max-width: 100%;
-    }
+    } 
 
     #question {
-        font-size: 36px;
+        
+        font-size: 2.9em;
     }
 
     #answers {
@@ -138,13 +156,17 @@ body {
     }
 
     .answer-button {
-        height: 50px;
-        font-size: 20px;
+        height: 60px;
+        font-size: 2.2em;
     }
 
     #score-board {
-        font-size: 20px;
-    }
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 20px 0;
+        font-size: 24px;        
+       }
 
     #message {
         font-size: 24px;
