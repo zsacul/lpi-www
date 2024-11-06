@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Fun Math Game</title>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" crossorigin href="/assets/mulit-C5XeiZ7R.css">
+  <script type="module" crossorigin src="/assets/mulit-QMT74EVB.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/mulit-BWNgJDMt.css">
 </head>
 <body>
     <input type="hidden" id="mode" value="">
@@ -15,9 +16,9 @@
         <div id="answers"></div>
         <!-- Score and Streak -->
         <div id="score-board">
-            <div id="score">Score: 0 </div>
-            <div id="streak">Streak: 0 </div>
-            <div id="high-score">High Score: 0</div>
+            <div id="score">Score 0 </div>
+            <div id="streak">Streak 0 </div>
+            <div id="high-score">High Score 0</div>
         </div>
         <!-- Progress Bar -->
         <div id="progress-bar">
@@ -28,12 +29,11 @@
 
         <img class="music"  id="music" src="/assets/Icon_MusicOn-DuREGAj1.png"   alt="music on" onclick="MusicClick()">
         <img class="sounds" id="sound" src="/assets/Icon_SoundOn-BkHG3II6.png"   alt="sound on" onclick="SoundClick()">
-        <img class="back"   id="back"  src="/assets/Icon_ArrowLeft-Ca34PMLa.png" alt="back"     onclick="BackClick()">        
+        <img class="back"   id="back"  src="/assets/Icon_ArrowLeft-Ca34PMLa.png" alt="back"     onclick="BackClick()">
 
     </div>
 
-    <audio id="correct-sound" src="sounds/correct.wav"></audio>
-    <audio id="wrong-sound" src="sounds/wrong.wav"></audio>
-    <script src="script.js"></script>
+    <audio id="correct-sound" src="/sounds/correct.wav"></audio>
+    <audio id="wrong-sound" src="/sounds/wrong.wav"></audio>
 </body>
 </html>
