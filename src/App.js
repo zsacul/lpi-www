@@ -77,7 +77,7 @@ render() {
               <h1>Łukasz Piwowar<br /></h1>              
             </header>
             <p>            
-            Starszy wykładowca w "Zakładzie Metod Numerycznych" Instytutu Informatyki Uniwersytetu Wrocławskiego.<br />
+            Adiunkt dydaktyczny w "Zakładzie Metod Numerycznych" Instytutu Informatyki Uniwersytetu Wrocławskiego.<br />
             </p>
             <ul className='actions'>
               <li><a href="#omnie" className="button big">Więcej...</a></li>
