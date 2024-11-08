@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun Math Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/lpi-www/kids/multipication/assets/mulit-CgDik18I.js"></script>
+  <link rel="stylesheet" crossorigin href="/lpi-www/kids/multipication/assets/mulit-CxQ3Kael.css">
+</head>
+<body>
+    <input type="hidden" id="mode" value="">
+    <div id="game-container">
+        <!-- Display the multiplication problem -->
+        <div id="question"></div>
+        <!-- Answer options -->
+        <div id="answers"></div>
+        <!-- Score and Streak -->
+        <div id="score-board">
+            <div id="score">Score 0 </div>
+            <div id="streak">Streak 0 </div>
+            <div id="high-score">High Score 0</div>
+        </div>
+        <!-- Progress Bar -->
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
+        <!-- Encouraging Message -->
+        <div id="message"></div>
+
+        <img class="music"  id="music" src="images/Icon_MusicOn.png"   alt="music on" onclick="MusicClick()">
+        <img class="sounds" id="sound" src="images/Icon_SoundOn.png"   alt="sound on" onclick="SoundClick()">
+        <img class="back"   id="back"  src="images/Icon_ArrowLeft.png" alt="back"     onclick="BackClick()">
+
+    </div>
+
+    <audio id="correct-sound" src="sounds/correct.wav"></audio>
+    <audio id="wrong-sound" src="sounds/wrong.wav"></audio>
+</body>
+</html>
